@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <!-- <title>Welcome to Taewoo Lee's website</title> -->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body onload="init();">
 
-    <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <!-- <a href="research.html">Research</a> -->
-      <a href="publications.html">Publications</a>
-      <a href="teaching.html">Teaching</a>
-      <!-- <a href="students.html">Students</a> -->
-      <a href="service.html">Service</a>
-      <a href="contact.html">Contact</a>
-    </div>
+  <div class="container1">
+        <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+        <!-- <a href="research.html">Research</a> -->
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
+        <!-- <a href="students.html">Students</a> -->
+          <a href="service.html">Service</a>
+          <a href="contact.html">Contact</a>
+        </div>
+  </div>
 
-  <div class="boxed">
-  <div id="container">
-    <div id="left">
-      <img src="img/Lee2.png" width="140">
-    </div>
-    <div id="right">
-      <div style="height: 10px;">
-        <br>
-        <b><font size="+3">Taewoo Lee</font></b> <br><br>
-        Assistant Professor <br>
-        Industrial Engineering <br>
-        University of Houston <br>
-        CV: <a href="docs/TLee_CV.pdf"  target="_blank">PDF</a> <br>
-        email: <a href="mailto:tlee6@uh.edu">tlee6 [at] uh [dot] edu</a><br>
+  <div class="container2">
+    <div class="boxed">
+    <div id="container">
+      <div id="left">
+        <img src="img/Picture.jpg" width="140">
       </div>
+      <div id="right">
+        <div style="height: 8px;">
+          <p style="margin-left: 15px"><b><font size="+3">Taewoo Lee</font></b> <br><br>
+          Assistant Professor <br>
+          Industrial Engineering <br>
+          University of Houston <br>
+          <!-- email: <a href="mailto:tlee6@uh.edu">tlee6 [at] uh [dot] edu</a><br> -->
+          email: tlee6 [at] uh [dot] edu<br>
+          <br>
+          CV: <a href="docs/TLee_CV.pdf"  target="_blank">PDF</a> <br>
+
     </div>
-    <div class="clear"></div>
+      <div class="clear"></div>
+    </div>
+      <br>
+      <p>Welcome to my website! I am an assistant professor of Industrial Engineering at the University of Houston. I received my PhD in 2015 in operations research from the University of Toronto. Before joining UH, I was at the department of Computational and Applied Mathematics at Rice University as a postdoctoral researcher.</p>
+
+      <p>My general research interests are in the application of optimization techniques such as inverse optimization, robust optimization, and dynamic programming to healthcare operations and medical decision making. Specific application areas that I have recently focused on are radiation therapy treatment planning, organ transplantation, and screening for diabetic complications.</p>
+
+    </div>
+    <div class="boxed">
+
+      <b>Research Interests</b>
+
+      <ul>
+      <li> Inverse optimization and statistical machine learning
+      <li> Knowledge-based multicriteria optimization in radiation therapy treatment planning
+      <li> Designing <!diabetic retinopathy teleretinal screening> telescreening and homecare programs
+      <li> Policy making for organ transplantation centers
+      </ul>
+    <!-- </div>
+
+    <div class="boxed"> -->
+      <br>
+      <b>Recent News</b>
+
+      <ul>
+      <li> Teaching INDE7932: Decision Modeling and Optimization under Uncertainty in Spring 2019
+      <li> Thank you to <!the National Science Foundation>NSF for supporting our project: "Optimal Performance Incentives for Organ Transplantation Centers"
+      <li> New paper available: "<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2017.2992">Inverse Optimization: Closed-Form Solutions, Geometry, and Goodness of Fit</a>" at Management Sci
+      <li> New paper available: "<a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718301784">Trade-off preservation in inverse multi-objective convex optimization</a>" at EJOR
+      <li> New paper available: "<a href="https://www.sciencedirect.com/science/article/pii/S0167637717305655">Robust inverse optimization</a>" at OR Letters
+      </ul>
+    </div>
+
+    <!-- <div class="boxed">
+      <b>Recent/Upcoming Trips</b>
+      <ul>
+      <li>INFORMS, Nov 2018, Phoenix AZ
+      <li>Big Data and Information Analytics Conference, Dec 2018, Houston TX
+      <li>POMS, May 2019, Washington DC
+      <li>INFORMS Healthcare, July 2020, Boston MA
+      </ul>
+    </div> -->
+
+
+  <!Services IISE Faculty Advisor: Pictures INFORMS Faculty Advisor Journal referee>
   </div>
-
-    <p>Welcome to my website! I am an <a href="www.ie.uh.edu/faculty/lee">assistant professor</a> of <a href="www.ie.uh.edu">Industrial Engineering</a> at the <a href="www.uh.edu">University of Houston</a>. I received my PhD in 2015 in <a href="https://www.mie.utoronto.ca">operations research</a> (industrial engineering) from the <a href="https://www.utoronto.ca">University of Toronto</a>. Before joining UH, I was at the department of <a href="https://caam.rice.edu/">Computational and Applied Mathematics</a> at <a href="https://www.rice.edu">Rice University</a> as a postdoctoral researcher.</p>
-
-    <p>My general research interests are in the application of optimization techniques such as inverse optimization, robust optimization, and dynamic programming to healthcare operations and medical decision making. Specific application areas that I have recently focused on are radiation therapy treatment planning, organ transplantation, and screening for diabetic complications.</p>
-  </div>
-
-  <div class="boxed">
-
-    <b>Research Interests</b>
-
-    <ul>
-    <li> Inverse optimization and statistical machine learning
-    <li> Knowledge-based multicriteria optimization in radiation therapy treatment planning
-    <li> Designing <!diabetic retinopathy teleretinal screening> telescreening and homecare programs
-    <li> Policy making for organ transplantation centers
-    </ul>
-  </div>
-
-  <div class="boxed">
-
-    <b>Recent News</b>
-    <ul>
-    <li> Teaching INDE7932: Decision Modeling and Optimization under Uncertainty in Spring 2019
-    <li> Thank you to <!the National Science Foundation>NSF for supporting our project: "Optimal Performance Incentives for Organ Transplantation Centers"
-    <li> New paper available: "<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2017.2992">Inverse Optimization: Closed-Form Solutions, Geometry, and Goodness of Fit</a>" at Management Sci
-    <li> New paper available: "<a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718301784">Trade-off preservation in inverse multi-objective convex optimization</a>" at EJOR
-    <li> New paper available: "<a href="https://www.sciencedirect.com/science/article/pii/S0167637717305655">Robust inverse optimization</a>" at OR Letters
-    </ul>
-  </div>
-
-  <div class="boxed">
-    <b>Recent/Upcoming Trips</b>
-    <ul>
-    <li>INFORMS, Nov 2018, Phoenix AZ
-    <li>Big Data and Information Analytics Conference, Dec 2018, Houston TX
-    <li>POMS, May 2019, Washington DC
-    <li>INFORMS Healthcare, July 2020, Boston MA
-    </ul>
-  </div>
-
-
-<!Services IISE Faculty Advisor: Pictures INFORMS Faculty Advisor Journal referee>
-
 
 </div>
 </body>

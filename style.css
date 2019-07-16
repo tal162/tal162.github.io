@@ -1,32 +1,50 @@
+/* #wrap {
+  width:500px;
+  margin:0 auto;
+  background:#9eeff4;
+  height:10px;} */
+
 body {
   margin: 0;
-  font-family: "Trebuchet MS";
+  font-family: 'Muli', san-serif;
   /* font-family: Helvetica; */
   /* font-family: Verdana; */
   background-color: white;
 }
 
+.container1 {
+  width: 61%;
+  height: 70%;
+  margin: 10px auto;
+}
+
+.container2 {
+  width: 65%;
+  height: 70%;
+  margin: 20px auto;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #white;
 }
 
 .topnav a {
   float: left;
-  color: grey;
+  color: #473E3C;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: lightgrey;
   color: black;
 }
 
 .topnav a.active {
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 
